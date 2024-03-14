@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>local & session Storage</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css"
+        integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<style>
+    .box {
+        width: 400px;
+        height: 600px;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+
+    img {
+        width: 400px;
+        height: 500px;
+    }
+
+    button {
+        background-color: white;
+        border: none;
+        font-size: 30px;
+        cursor: pointer;
+        margin-right: 15px;
+    }
+
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+   
+</style>
+
+<body>
+
+    <div class="box">
+        <img src="img/pic.jpg" alt="">
+        <div class="row">
+            <h2 id="count">0</h2>
+            <button id="like"><i class="fa-solid fa-heart" style="color: #f31212;"></i></button>
+            <h2 id="count01">0</h2>
+            <button id="comment"><i class="fa-solid fa-comment" style="color: #093f71;"></i></button>
+            <h2 id="count02">0</h2>
+            <button id="follow"><i class="fa-solid fa-user-plus" style="color: #616975;"></i></button>
+            <h2 id="count03">0</h2>
+            <button id="share"><i class="fa-brands fa-telegram" style="color: #98a7c3;"></i></button>
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+
+</html>
